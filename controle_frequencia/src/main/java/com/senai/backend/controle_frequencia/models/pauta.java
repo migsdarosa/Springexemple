@@ -25,7 +25,7 @@ public class pauta {
     private String turma;
 
     @OneToMany
-    @JoinColumn( name = "id pauta")
+    @JoinColumn( name = "id_pauta")
     private List<usuario> usuario;
 
     public pauta() {
